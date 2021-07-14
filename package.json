@@ -1,0 +1,21 @@
+{
+  "name": "hotReload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "dev": "node webpack-dev-server",
+    "dev:server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "html-webpack-plugin": "4.4.1",
+    "socket.io": "2.3.0",
+    "webpack": "4.44.2",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
+  },
+  "devDependencies": {
+    "mime": "^2.5.2"
+  }
+}
